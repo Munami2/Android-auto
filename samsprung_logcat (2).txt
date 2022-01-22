@@ -1,0 +1,108 @@
+
+SamSprung Widget Logs
+
+--------- beginning of main
+01-16 07:30:32.567  5491  5491 E ealth:SamSprun: Not starting debugger since process cannot load the jdwp agent.
+01-16 07:30:32.568  5491  5491 E USNET   : USNET: appName: com.sec.android.app.shealth:SamSprung
+01-16 07:30:32.616  5491  5491 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+01-16 07:30:32.618  5491  5491 D ActivityThread: setConscryptValidator
+01-16 07:30:32.618  5491  5491 D ActivityThread: setConscryptValidator - put
+--------- beginning of system
+01-16 07:30:32.673  5491  5491 D ActivityThread: handleBindApplication()++ app=com.sec.android.app.shealth:SamSprung
+01-16 07:30:32.674  5491  5491 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10407; state: DISABLED
+01-16 07:30:32.897  5491  5637 W ResourcesOffloading: An exception occurred : 
+01-16 07:30:32.897  5491  5637 W ResourcesOffloading: android.content.res.Resources$NotFoundException: Resource ID #0x7f0801c5
+01-16 07:30:32.897  5491  5637 W ResourcesOffloading: 	at android.content.res.ResourcesImpl.getValueForDensity(ResourcesImpl.java:249)
+01-16 07:30:32.897  5491  5637 W ResourcesOffloading: 	at android.content.res.Resources.offloadDrawable(Resources.java:2826)
+01-16 07:30:32.897  5491  5637 W ResourcesOffloading: 	at android.app.ResourcesOffloading$ResourcesOffloadingRunnable.run(ResourcesOffloading.java:82)
+01-16 07:30:32.897  5491  5637 W ResourcesOffloading: 	at java.lang.Thread.run(Thread.java:920)
+01-16 07:38:02.502  5491 28686 I AdrenoGLES-0: QUALCOMM build                   : b25f720, I2fb6e682e6
+01-16 07:38:02.502  5491 28686 I AdrenoGLES-0: Build Date                       : 09/14/21
+01-16 07:38:02.502  5491 28686 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.35.01.09
+01-16 07:38:02.502  5491 28686 I AdrenoGLES-0: Local Branch                     : CLDebug0914
+01-16 07:38:02.502  5491 28686 I AdrenoGLES-0: Remote Branch                    : 
+01-16 07:38:02.502  5491 28686 I AdrenoGLES-0: Remote Branch                    : 
+01-16 07:38:02.502  5491 28686 I AdrenoGLES-0: Reconstruct Branch               : 
+01-16 07:38:02.502  5491 28686 I AdrenoGLES-0: Build Config                     : S P 10.0.7 AArch64
+01-16 07:38:02.502  5491 28686 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+01-16 07:38:02.506  5491 28686 I AdrenoGLES-0: PFP: 0x016dc094, ME: 0x00000000
+01-16 07:38:02.534  5491  5491 I DecorView: [INFO] isPopOver=false, config=true
+01-16 07:38:02.534  5491  5491 I DecorView: updateCaptionType >> DecorView@9167d41[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+01-16 07:38:02.535  5491  5491 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=480 msg=resources_loaded
+01-16 07:38:03.117  5491  5491 I MSHandlerLifeCycle: isMultiSplitHandlerRequested: ignored. pkg=com.sec.android.app.shealth parent=null callers=com.android.internal.policy.DecorView.setVisibility:4220 android.app.ActivityThread.handleResumeActivity:5300 android.app.servertransaction.ResumeActivityItem.execute:54 android.app.servertransaction.ActivityTransactionItem.execute:45 android.app.servertransaction.TransactionExecutor.executeLifecycleState:176 
+01-16 07:38:03.117  5491  5491 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@9167d41[]
+01-16 07:38:03.122  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: setView = com.android.internal.policy.DecorView@9167d41 TM=true
+01-16 07:38:03.123  5491  5491 I MSHandlerLifeCycle: isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@9167d41[CoverSettingsActivity]
+01-16 07:38:03.123  5491  5491 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@9167d41[CoverSettingsActivity]
+01-16 07:38:03.124  5491  5491 I Choreographer: Skipped 68 frames!  The application may be doing too much work on its main thread.
+01-16 07:38:03.132  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) req=(1080,2640)0 dur=4 res=0x7 s={true 496701084176} ch=true fn=-1
+01-16 07:38:03.173  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11240 android.view.ViewRootImpl.performTraversals:4087 android.view.ViewRootImpl.doTraversal:2831 
+01-16 07:38:03.190  5491 28686 I BufferQueueProducer: [ViewRootImpl@868b5ed[CoverSettingsActivity]#0(BLAST Consumer)0](id:157300000000,api:1,p:5491,c:5491) queueBuffer: queued for the first time.
+01-16 07:38:03.194  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$createFrameCompleteCallback$3$ViewRootImpl:4845 android.view.ViewRootImpl$$ExternalSyntheticLambda15.run:6 android.os.Handler.handleCallback:938 
+01-16 07:38:03.194  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: [DP] rdf()
+01-16 07:38:03.202  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+01-16 07:38:03.203  5491  5491 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+01-16 07:38:08.742  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 0
+01-16 07:38:08.873  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 1
+01-16 07:38:16.108  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 0
+01-16 07:38:16.227  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 1
+01-16 07:38:16.229  5491  5491 I AppWidgetManager: notifyAppWidgetViewDataChanged() appWidgetIds = [], viewId = 2131231162
+01-16 07:38:16.236  5491  5491 I AppWidgetManager: notifyAppWidgetViewDataChanged() appWidgetIds = [], viewId = 2131231162
+01-16 07:38:17.791  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 0
+01-16 07:38:17.884  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 1
+01-16 07:38:17.885  5491  5491 I AppWidgetManager: notifyAppWidgetViewDataChanged() appWidgetIds = [], viewId = 2131231156
+01-16 07:38:17.893  5491  5491 I AppWidgetManager: notifyAppWidgetViewDataChanged() appWidgetIds = [], viewId = 2131231156
+01-16 07:38:19.639  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 0
+01-16 07:38:19.734  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 1
+01-16 07:38:21.485  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 0
+01-16 07:38:21.615  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 1
+01-16 07:38:21.971  5491  5491 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+01-16 07:38:26.897  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 0
+01-16 07:38:27.045  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 1
+01-16 07:38:27.088  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+01-16 07:38:27.751  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: handleAppVisibility mAppVisible=true visible=false
+01-16 07:38:27.762  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) req=(1080,2640)8 dur=1 res=0x5 s={false 0} ch=true fn=252
+01-16 07:38:27.762  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: stopped(true) old=false
+01-16 07:38:27.763  5491  5491 I MSHandlerLifeCycle: isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@9167d41[CoverSettingsActivity]
+01-16 07:38:27.763  5491  5491 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@9167d41[CoverSettingsActivity]
+01-16 07:38:27.768  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) req=(1080,2640)8 dur=1 res=0x5 s={false 0} ch=false fn=-1
+01-16 07:39:18.333  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: handleAppVisibility mAppVisible=false visible=true
+01-16 07:39:18.341  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) req=(1080,2640)4 dur=5 res=0x1 s={false 0} ch=false fn=-1
+01-16 07:39:18.342  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: stopped(false) old=true
+01-16 07:39:18.351  5491  5491 I MSHandlerLifeCycle: isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:18.351  5491  5491 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:18.351  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: stopped(false) old=false
+01-16 07:39:18.351  5491  5491 I MSHandlerLifeCycle: isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:18.351  5491  5491 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:18.358  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) req=(1080,2640)0 dur=6 res=0x7 s={true 496701084176} ch=true fn=-1
+01-16 07:39:18.359  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11240 android.view.ViewRootImpl.performTraversals:4087 android.view.ViewRootImpl.doTraversal:2831 
+01-16 07:39:18.364  5491 28686 I BufferQueueProducer: [ViewRootImpl@868b5ed[CoverSettingsActivity]#1(BLAST Consumer)1](id:157300000001,api:1,p:5491,c:5491) queueBuffer: queued for the first time.
+01-16 07:39:18.365  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$createFrameCompleteCallback$3$ViewRootImpl:4845 android.view.ViewRootImpl$$ExternalSyntheticLambda15.run:6 android.os.Handler.handleCallback:938 
+01-16 07:39:18.365  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: [DP] rdf()
+01-16 07:39:18.376  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: stopped(true) old=false
+01-16 07:39:18.377  5491  5491 I MSHandlerLifeCycle: isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:18.377  5491  5491 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:18.384  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) req=(1080,2640)4 dur=5 res=0x5 s={false 0} ch=false fn=-1
+01-16 07:39:18.385  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: handleAppVisibility mAppVisible=true visible=false
+01-16 07:39:18.387  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) req=(1080,2640)8 dur=1 res=0x1 s={false 0} ch=false fn=-1
+01-16 07:39:25.558  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: handleAppVisibility mAppVisible=false visible=true
+01-16 07:39:25.566  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) req=(1080,2640)4 dur=2 res=0x1 s={false 0} ch=false fn=-1
+01-16 07:39:25.566  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: stopped(false) old=true
+01-16 07:39:25.567  5491  5491 I MSHandlerLifeCycle: isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:25.567  5491  5491 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:25.567  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: stopped(false) old=false
+01-16 07:39:25.567  5491  5491 I MSHandlerLifeCycle: isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:25.567  5491  5491 I MSHandlerLifeCycle: removeMultiSplitHandler: no exist. decor=DecorView@9167d41[CoverSettingsActivity]
+01-16 07:39:25.579  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) req=(1080,2640)0 dur=6 res=0x7 s={true 496701075456} ch=true fn=-1
+01-16 07:39:25.579  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11240 android.view.ViewRootImpl.performTraversals:4087 android.view.ViewRootImpl.doTraversal:2831 
+01-16 07:39:25.583  5491 28686 I BufferQueueProducer: [ViewRootImpl@868b5ed[CoverSettingsActivity]#2(BLAST Consumer)2](id:157300000002,api:1,p:5491,c:5491) queueBuffer: queued for the first time.
+01-16 07:39:25.584  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$createFrameCompleteCallback$3$ViewRootImpl:4845 android.view.ViewRootImpl$$ExternalSyntheticLambda15.run:6 android.os.Handler.handleCallback:938 
+01-16 07:39:25.584  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: [DP] rdf()
+01-16 07:39:25.598  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+01-16 07:39:25.598  5491  5491 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+01-16 07:39:47.203  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 0
+01-16 07:39:47.379  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 1
+01-16 07:39:58.919  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 0
+01-16 07:39:59.637  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 1
+01-16 07:40:01.690  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 0
+01-16 07:40:01.818  5491  5491 I ViewRootImpl@868b5ed[CoverSettingsActivity]: ViewPostIme pointer 1
